@@ -6,10 +6,54 @@
 body {
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
+  letter-spacing: 0.03cm;
 }
 ul {
   list-style: none;
 }
+/* header */
+.logo {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.accent {
+  color: var(--text-title-color);
+}
+.nav-links a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+.nav-links:hover,
+.nav-links:focus {
+  color: var(--accent-color);
+}
+.address-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.adress-mail:hover,
+.adress-mail:focus {
+  color: var(--accent-color);
+}
+.address-phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+}
+/* End of header */
+
 .main-button {
   background-color: #2196f3;
   color: #ffffff;
@@ -17,4 +61,79 @@ ul {
 .button:hover,
 .button:focus {
   color: var(--accent-color);
+}
+/* Section Hero index */
+.hero {
+  background-color: #2f303a;
+}
+.hero > .title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: white;
+}
+/* Main Sections */
+.section > .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--text-title-color);
+}
+/* Наши преимущества index */
+.section-list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--text-title-color);
+}
+.section-list-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* Our Team */
+. .team-list-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--text-title-color);
+}
+.team-list-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer-address-map {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+}
+.footer-address-mail {
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-address-phone {
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-address-mail:hover,
+.footer-address-mail:focus {
+  color: var(--accent-color);
+}
+.footer-address a {
+  text-decoration: none;
+}
+.accent-footer {
+  color: #ffffff;
 }
