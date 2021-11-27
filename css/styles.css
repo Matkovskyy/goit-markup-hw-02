@@ -54,13 +54,7 @@ ul {
 }
 /* End of header */
 
-.main-button {
-  background-color: #2196f3;
-  color: #ffffff;
-}
-.button:hover,
-.button:focus {
-  color: var(--accent-color);
+
 }
 /* Section Hero index */
 .hero {
@@ -136,4 +130,27 @@ ul {
 }
 .accent-footer {
   color: #ffffff;
+}
+/* Portfolio */
+.main-button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.button:hover,
+.button:focus {
+  color: var(--accent-color);
+}
+.filters-list-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color:var(--text-title-color);
+}
+.filters-list-text{
+font-size: 16px;
+line-height: 1.9;
+}
+.filters-list{
+  background-color: #E5E5E5;
 }
