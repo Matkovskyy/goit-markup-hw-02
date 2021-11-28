@@ -157,13 +157,13 @@ ul {
 }
 
 /* Portfolio */
-.button {
+.filter-button {
   background-color: #2196f3;
   color: #ffffff;
   cursor: pointer;
 }
-.button:hover,
-.button:focus {
+.filter-button:hover,
+.filter-button:focus {
   color: var(--accent-color);
 }
 .gallery-title {
