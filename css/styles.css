@@ -95,7 +95,7 @@ ul {
   line-height: 1.71;
 }
 /* Our Team index*/
-. .team-list-title {
+.team-list-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -114,6 +114,7 @@ ul {
 .footer-address-map {
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
   color: #ffffff;
 }
 .footer-address-mail {
@@ -128,36 +129,41 @@ ul {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-address-mail:hover,
-.footer-address-mail:focus {
-  color: var(--accent-color);
-}
 .footer-address a {
   text-decoration: none;
 }
 .accent-footer {
   color: #ffffff;
 }
+.footer-address-phone:hover,
+.footer-address-mail:hover,
+.footer-address-map:hover {
+  color: var(--accent-color);
+}
+.footer-address-phone:active,
+.footer-address-mail:active,
+.footer-address-map:active {
+  color: var(--accent-color);
+}
+
 /* Portfolio */
-.hero-button {
+.button {
   background-color: #2196f3;
   color: #ffffff;
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
   color: var(--accent-color);
 }
-.filters-list-title {
+.gallery-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--text-title-color);
 }
-.filters-list-text {
+.gallery-text {
   font-size: 16px;
   line-height: 1.9;
-}
-.filters-list {
-  background-color: #e5e5e5;
 }
