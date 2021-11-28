@@ -74,6 +74,16 @@ ul {
   text-transform: uppercase;
   color: white;
 }
+.hero-button {
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
 /* Main Sections */
 .section > .title {
   font-weight: 700;
